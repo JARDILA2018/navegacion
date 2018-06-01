@@ -1,0 +1,29 @@
+
+<ion-header>
+
+  <ion-navbar color="Coorp">
+    <ion-title>NAVEGACION</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+<button ion-button
+        block
+        color="Coorp"
+        (click)="navegarPagina()">
+        Ir a Página No. 2
+</button>
+
+<button ion-button
+        block
+        color="secondary"
+        [navPush]= "pagina2"
+        >
+        Ir a Página No. 2 - HTML
+
+</button>
+
+</ion-content>
